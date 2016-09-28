@@ -107,7 +107,6 @@ if (hasInterface || isServer) then
 	[] execVM "addons\disableThermal\disablethermal.sqf";
 	[] execVM "addons\laptop\init.sqf";
 	[] execVM "addons\Grenades\initGrenades.sqf"; // Toxic Gas Grenades
-	[] execVM "addons\scripts\intro.sqf";                 // Welcome intro by Firsty
 	if (isServer) then {call compile preprocessFile "mapconfig\structures\initBuildings.sqf";}; //GID Structures
 	
 };

@@ -99,17 +99,6 @@ class CfgNotifications
 	#include "client\CfgNotifications.hpp"
 };
 
-class CfgMusic
-{
-	tracks[]={};
-
-	class FirstyIntro
-	{
-		name = "FirstyIntro";
-		sound[] = {"intro.ogg", db+10, 1.0};
-	};
-};
-
 class CfgRemoteExec // applies only to clients
 {
 	class Functions
